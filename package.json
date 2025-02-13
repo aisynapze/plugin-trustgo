@@ -18,6 +18,11 @@
     "files": [
         "dist"
     ],
+    "devDependencies": {
+        "typedoc": "0.26.11",
+        "typescript": "5.6.3",
+        "viem": "2.21.58"
+    },
     "dependencies": {
         "@elizaos/core": "^0.25.6-alpha.1",
         "@elizaos/plugin-evm": "^0.25.6-alpha.1",

@@ -1,6 +1,6 @@
 {
-    "extends": "../core/tsconfig.json",
     "compilerOptions": {
+        "moduleResolution": "node",
         "outDir": "dist",
         "rootDir": "./src",
         "typeRoots": [
