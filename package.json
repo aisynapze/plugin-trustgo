@@ -1,5 +1,5 @@
 {
-    "name": "@elizaos/plugin-trustgo",
+    "name": "@toddli/plugin-trustgo",
     "version": "0.1.0",
     "type": "module",
     "main": "dist/index.js",
@@ -33,5 +33,16 @@
         "dev": "tsup --format esm --dts --watch",
         "test": "vitest run",
         "lint": "eslint --fix  --cache ."
-    }
+    },
+    "description": "This plugin provides actions and providers for interacting with trustgo - https://trustgo.trustalabs.ai/.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TrustaLabs/plugin-trustgo.git"
+    },
+    "author": "toddli <liheact@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TrustaLabs/plugin-trustgo/issues"
+    },
+    "homepage": "https://github.com/TrustaLabs/plugin-trustgo#readme"
 }
