@@ -13,20 +13,25 @@ The TrustGo plugin enables fetching EVM account information from the TrustGo web
 - Fetch User Attestations: Access user attestations.
 - Mint L2 MEDIA Attestation: Mint MEDIA attestations on Layer 2.
 
+## Installation
+
+```bash
+pnpm install @toddli/plugin-trustgo
+```
 
 ## Configuration
 
 ### Dependencies
 
 ```
-@elizaos/plugin-evm
+@toddli/plugin-evm
 ```
 
 ### Required Environment Variables
 
 ```env
 # Required
-EVM_PRIVATE_KEY=your-private-key-here
+EVM_PRIVATE_KEY=your-private-key
 
 ```
 
