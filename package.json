@@ -1,5 +1,5 @@
 {
-    "name": "@toddli/plugin-trustgo",
+    "name": "@elizaos-plugins/plugin-trustgo",
     "version": "0.1.1",
     "type": "module",
     "main": "dist/index.js",
