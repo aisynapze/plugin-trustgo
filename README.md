@@ -1,6 +1,6 @@
-# @elizaos/plugin-trustgo
+# @toddli/plugin-trustgo
 
-This plugin provides actions and providers for interacting with trustgo - https://trustgo.trustalabs.ai/.
+This elizaOS plugin provides actions and providers for interacting with trustgo - https://trustgo.trustalabs.ai/.
 
 ## Description
 
@@ -16,7 +16,7 @@ The TrustGo plugin enables fetching EVM account information from the TrustGo web
 ## Installation
 
 ```bash
-pnpm install @elizaos-plugins/plugin-trustgo
+pnpm install @toddli/plugin-trustgo
 ```
 
 ## Configuration
@@ -24,6 +24,7 @@ pnpm install @elizaos-plugins/plugin-trustgo
 ### Dependencies
 
 ```
+@elizaos/core
 @elizaos/plugin-evm
 ```
 
